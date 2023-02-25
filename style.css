@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family: "Inter", serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    position: relative;
+
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.landing-image{
+    margin-top: 50px;
+    width: 700px;
+    height: 500px;
+
+}
+.homepage{
+    padding: 20px;
+}
+.marketing{
+    padding: 50px;
+}
+h1{
+    font-size: 2.75rem;
+    line-height: 1.25;
+    margin: 20px 0;
+}
+h5 {
+    font-size: 1.25rem;
+    margin: 20px 0;
+    font-weight: 400;
+}
+.button{
+    background-color: #387ed1;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    border: 1px solid transparent !important;
+    border-radius: 3px;
+}
+.adjust{
+    padding: 10px;
+    grid-gap:10px;
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.marketing .columns{
+    padding: 10px;
+    margin: 10px 0;
+}
+p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;}
+    .set{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    ul.list-items {
+        padding-left: 20px;
+    }
+    ul li {
+        margin-bottom: 5px;
+    }
+    a img{
+        max-width: 100%;
+    }
+h2{
+    font-size: 2rem;
+    line-height: 1.5;
+margin: 20px 0;}
+.ecosystem h2{
+    margin:10px 0;
+    padding: 10px;
+}
+.ecosystem {
+    margin: 10px  0;
+    padding: 10px;
+}
+.navbar{
+    display: flex;
+    top: 0;
+    z-index: 10;
+    position: fixed;
+    text-align: right;
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 1px solid #666;
+    box-shadow: 2px 1px 2px #eee;
+    align-items: center;
+    justify-content:space-around;
+}
+.logo-img{
+    width: 100%;
+    height: 1em;
+    margin: 10px 0px;
+
+}
+.navbar-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-links li{
+    list-style: none;
+    margin: 0 10px;
+    width:100%;}
+.navbar-links li a {
+    color: #666;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+    display: inline-block;
+
+    padding: 10px;
+    box-sizing: border-box;}
+
+a{
+    color:#666 ;
+}
+a:hover{
+    color: #387ed1 !important;
+}
+#menu img{
+width: 100%;
+height: 25px;
+}
+.text-center{
+    text-align: center;
+}
+
+
+.pricing{
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    
+}
+.pricing-box{
+    border: 1px solid #ccc;
+    padding: 0 25px;
+    box-sizing: border-box;
+    min-height: 190px;
+}
+.pricing h1{
+    margin: 0;
+    line-height: 2;
+}
+.columns{
+    flex: 0 1 auto;
+}
+.five{
+    padding: 10px;
+}
+.education{
+    margin: 10px 0;
+    padding: 10px;
+}
+.education .six,.education .five{
+    padding: 10px ;
+    margin: 10px 0;
+}
+h4{
+font-size: 1.5rem;
+margin: 25px 0;}
+.education .six p{
+margin: 20px 0;
+}
+.education .six a{
+    margin: 10px 0;
+}
+
+#footer{
+    border-top: 1px solid #665;
+    margin-top:25px ;
+    padding: 20px;
+}
+.balance{
+    display: grid;
+    grid-gap: 25px;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer .smallprint p{
+    font-size: 0.65rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.footer-graveyard-links  li {
+    display: inline;
+    font-size: 0.8rem;
+    margin-right: 20px;
+    padding: 10px;
+    
+}
+.row{
+     display: flex;
+    flex: 0 1 auto;
+    flex-flow: row wrap;
+}
+.columns ul li:first-child
+{
+    margin: 20px 0;
+    font-size: 1.2em;
+}.columns ul li{
+    list-style: none;
+    margin: 10px 0;
+    
+}
+.smallprint{
+    padding: 20px;
+}
+.social li{
+    display: inline;
+    padding: 10px;
+}
+.footer-logo{
+    width: 75%;
+    margin: 10px 0;
+}
